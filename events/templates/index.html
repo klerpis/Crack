@@ -42,10 +42,10 @@
         {% for items in my_events %}
 
         <div class="cart">
-            <a href="{% url 'event-list' %}">
-                <img class="imog" src="{% static 'website/img/huu.png' %}" alt="desert" width="200" height="70">
-                <h2 class="title">{{ items }}</h2>
-            </a>
+            <!-- <a href="{% url 'event-list' %}"> -->
+            <img class="imog" src="{% static 'website/img/huu.png' %}" alt="desert" width="200" height="70">
+            <h2 class="title">{{ items }}</h2>
+            <!-- </a> -->
             <div class="des">
                 <p>{{ items.description }}</p>
             </div>
